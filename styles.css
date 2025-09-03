@@ -1,7 +1,7 @@
 body {
   font-family: "Press Start 2P", system-ui;
   margin: auto;
-  max-width: 38rem;
+  max-width: 20rem;
   padding: 2rem;
   text-align: center;
   background-image: url('images/app-background.png')
