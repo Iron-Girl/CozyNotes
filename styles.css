@@ -91,11 +91,6 @@ h3 {
   margin-left: 15px;
 }
 
-#Hugsy {
-  float: right;
-  margin-right: 15px;
-}
-
 #btnprompt, #btnwrite, #btnaffirm {
   font-family: "Press Start 2P", system-ui;
   padding: 2px;
