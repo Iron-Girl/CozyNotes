@@ -1,41 +1,40 @@
 body {
   font-family: "Press Start 2P", system-ui;
   margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  width: 720px;
+  height: 1600px;
   text-align: center;
-  background-image: url('images/app-background.png')
+  background-image: url('images/app-background.png');
+  border: 1px, solid, black;
 }
 
-h1 {
-  margin-bottom: 90px;
-  font-weight: 100;
-  font-size: 100px;
+#title {
+  font-weight: 80;
+  font-size: 60px;
+}
+
+#choose {
+  font-size: 30px;
+  margin-left: 15px;
 }
 
 label {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 input {
   margin-top: 5px;
   margin-bottom: 30px;
-  padding: 10px;
+  width: 600px;
+  height: 50px;
   border-radius: 15px;
   background-color: #fff5e9;
   font-family: "Press Start 2P", system-ui;
-}
-
-#sign-up {
-  display: inline-block;
-}
-
-#sign-up, label {
-  padding: 25px;
+  font-size: 40px;
 }
 
 #fname, #lname {
-  width: 200px;
+  width: 390px;
 }
 
 input:focus {
@@ -48,21 +47,21 @@ input:hover {
   border-color: pink;
 }
 
-#btnsign, #btnlog {
+#btnsign, #btnlog, #btnlogout, #btnprompt, #btnwrite, #btnaffirm, #btncalendar{
   font-family: "Press Start 2P", system-ui;
-  padding: 7px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin: 10px;
   background-color: #fff5e9;
-  font-size: 40px;
+  font-size: 25px;
+  padding: 5px;
 }
 
-#btnsign:hover, #btnlog:hover {
+#btnsign:hover, #btnlog:hover, #btnlogout:hover, #btnprompt:hover, #btnwrite:hover, #btnaffirm:hover {
   outline: none;
   border-color: pink;
 }
 
-btnsign:focus, #btnlog:focus {
+btnsign:focus, #btnlog:focus, #btnlogout:focus, #btnprompt:focus, #btnwrite:focus, #btnaffirm:focus {
   outline: none;
   background-color: pink;
   border-color: #fff5e9;
@@ -71,4 +70,43 @@ btnsign:focus, #btnlog:focus {
 a {
   text-decoration: none;
   color: black;
+}
+
+#btncalendar {
+  float: right;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#bearmojis {
+  text-align: left;
+  margin-left: 15px;
+}
+
+#Hugsy {
+  float: right;
+  margin-right: 15px;
+}
+
+#btnprompt, #btnwrite, #btnaffirm {
+  font-family: "Press Start 2P", system-ui;
+  padding: 2px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #fff5e9;
+  font-size: 30px;
+  width: 600px;
+  height: 80px;
+}
+
+p {
+  font-size: 20px;
 }
