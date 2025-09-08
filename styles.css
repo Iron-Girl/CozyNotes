@@ -14,7 +14,7 @@ body {
 }
 
 #choose {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 15px;
 }
 
@@ -77,13 +77,13 @@ a {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   text-align: left;
   margin-left: 25px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 #bearmojis {
@@ -103,8 +103,8 @@ h3 {
   margin-top: 50px;
   background-color: #fff5e9;
   font-size: 30px;
-  width: 600px;
-  height: 80px;
+  width: 900px;
+  height: 150px;
 }
 
 p {
