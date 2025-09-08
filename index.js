@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const { url } = require('node:inspector');
 const path = require('node:path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -15,7 +16,7 @@ const createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, 'login.html'));
+  mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
 };
@@ -46,3 +47,19 @@ app.on('window-all-closed', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+
+//Login Function
+
+function auth(event) {
+      event.preventDefault();
+
+      var username = document.getElementById("user").value;
+      var password = document.getElementById("psw").value;
+
+      if (username === "MissTechno2025" && password === "RocketRaccoon2020") {
+            window.location.replace("home.html");
+      } else {
+          alert("Incorrect, please try again");
+          return;
+      }
+}
